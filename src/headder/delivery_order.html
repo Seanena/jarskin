@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/headder/delivery_order.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>บันทึกการขาย</title>
+</head>
+<body>
+    <div id="app">
+        <header class="custom-header">
+            <!-- ส่วนเพิ่มเติมเพื่อจัดให้ช่องค้นหาแบบวงลีอยู่กึ่งกลาง -->
+            <div class="header-content">
+                <div class="logo"><a href="/">JARJOSUDLOR</a></div>  
+                <div class="into">
+                  <div class="wallet">
+                    <div class="input-container">
+                      <span class="currency-icon" style="color: rgb(17, 197, 53);">B</span> 
+                          <input class="wallet-input" type="text" value=" 0.00" readonly style="color: white;"/>
+                          <button class="add-money-button">+</button>
+                        </div>
+                  </div> 
+                        <div class="product-icon">
+                            <a href="/src/item/item_knife.html">ตลาด</a>
+                            <a href="/src/headder/inventory.html">คลังสินค้า</a>
+                            <a href="/src/headder/buy_order.html">การซื้อ</a>
+                            <a href="/src/headder/sell_order.html">การขาย</a>
+    
+                        </div> 
+                        <div class="navbar">
+                            <div class="dropdown">
+                                <img src="src\assets\pic\playerLeft.png" alt=""><!--ใส่รูปตรงนี้ครับ-->
+                                <i class="fa fa-caret-down"></i>
+                                <div class="dropdown-content">
+                                  <a href="/src/headder/profile.html">
+                                    <img src="/src/assets/pic/setting.png" alt="">
+                                    ข้อมูลส่วนตัว
+                                </a>    
+                                
+                                <a href="#">
+                                    <img src="/src/assets/pic/Exit.png" alt="">
+                                    ออกจากระบบ
+                                </a>    
+                            </div>
+                        </div> 
+                    </div>
+                  </div>
+    
+        </div>
+        </header>
+        <!-- เนื้อหาหน้าแอปของคุณ -->
+        <div class="table">
+
+            <div class="bottom-bar">
+                <a href="/src/headder/inventory.html" class="order-history">สต๊อคสินค้า</a>
+            <div class="separator"></div> 
+                <a href="/src/headder/sell_now.html" class="order-history">สินค้าที่กำลังขายอยู่</a>
+            <div class="separator"></div> 
+                <a href="/src/headder/delivery_order.html" class="sales-history">รอส่งสินค้า</a>
+
+
+            <div class="search-box">
+                <input class="search-input" type="text" placeholder="กรอกชื่อไอเทม"/>
+                <button class="serch-button" >ค้นหา</button>
+            </div>
+            </div>
+        
+        <div class="custom-div">
+            <div class="info-item">
+              <p class="info-label">ข้อมูลสินค้า</p>
+            </div>
+            <div class="info-item">
+              <p class="info-label">ข้อมูลสกุล</p>
+            </div>
+            <div class="info-item">
+              <p class="info-label">ราคาซื้อ</p>
+            </div>
+            <div class="info-item">
+              <p class="info-label">วิธีการชำระเงิน</p>
+            </div>
+            <div class="info-item">
+                <p class="info-label">ราคาซื้อ</p>
+            </div>        
+        </div>
+
+    </div>
+        
+        
+    <footer class="site-footer">
+        <div class="f1">
+          <h3>JARJOSUDLOR</h3>
+          <p>Powered by Steam. Not affiliated with Valve Corp.</p>
+          <p>
+            &copy; 2023 JARJOSUDLOR | 
+            <a>นโยบายความเป็นส่วนตัว</a> | 
+            <a>ข้อกำหนดการให้บริการ</a> | 
+            <a>นโยบายคุกกี้</a>
+          </p>
+        </div>
+        <div class="f2">
+          <div class="f21">
+  
+            <h3>Introduction</h3>
+            <p>Privacy Statement</p>
+            <p>Terms of Service</p>
+            <p>Cookie policy</p>
+          </div>
+          <div class="f22">
+            <h3>Payment methods</h3>
+            <p>prompt pay</p>
+            <p>true money</p>
+          </div>
+        </div>
+    </footer>
+  
+    </div>
+</body>
+</html>
